@@ -1,0 +1,5 @@
+class RemoveRegistratonFromVehicle < ActiveRecord::Migration[5.0]
+  def change
+    remove_column :vehicles, :registraton, :string
+  end
+end

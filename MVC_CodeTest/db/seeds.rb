@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Vehicle.delete_all
+Vehicle.create!(price: 20000, registration: "ST02NYN", manufacturer: "Hyundai")
+Vehicle.create!(price: 33900, registration: "F17 TAR", manufacturer: "Renault")
+Vehicle.create!(price: 9000, registration: "SK16CXY", manufacturer: "DAF")
+Vehicle.create!(price: 22000, registration: "MN15SKR", manufacturer: "Scania")
